@@ -10,7 +10,7 @@ source:
   md5: 4570c9763514ff07b8f2fb6ea2a0268b
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   script: python setup.py install --record=record.txt
 
