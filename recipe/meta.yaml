@@ -10,7 +10,7 @@ source:
   md5: 4570c9763514ff07b8f2fb6ea2a0268b
 
 build:
-  number: 1
+  number: 2
   skip: true  # [win]
   script: python setup.py install --record=record.txt
 
@@ -20,7 +20,8 @@ requirements:
     - scipy >=0.17.0
     - future
     - jinja2
-    - scikit-bio >=0.4.1,<0.5.0
+    - scikit-bio >=0.4.1,<0.5.0  # [py2k]
+    - scikit-bio >=0.4.1  # [py3k]
     - numpy >=1.7
     - pandas
     - click
@@ -30,7 +31,8 @@ requirements:
     - scipy >=0.17.0
     - future
     - jinja2
-    - scikit-bio >=0.4.1,<0.5.0
+    - scikit-bio >=0.4.1,<0.5.0  # [py2k]
+    - scikit-bio >=0.4.1  # [py3k]
     - numpy >=1.7
     - pandas
     - click
