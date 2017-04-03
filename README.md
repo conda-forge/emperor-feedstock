@@ -11,6 +11,18 @@ Summary: Emperor a tool for the analysis and visualization of large microbial ec
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/emperor-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/emperor-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/emperor-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/emperor-feedstock)
+Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/emperor/badges/version.svg)](https://anaconda.org/conda-forge/emperor)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/emperor/badges/downloads.svg)](https://anaconda.org/conda-forge/emperor)
+
 Installing emperor
 ==================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `emperor` available on your platfo
 ```
 conda search emperor --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/emperor-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/emperor-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/emperor-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/emperor-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/emperor/badges/version.svg)](https://anaconda.org/conda-forge/emperor)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/emperor/badges/downloads.svg)](https://anaconda.org/conda-forge/emperor)
 
 
 Updating emperor-feedstock
