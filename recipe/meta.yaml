@@ -1,4 +1,4 @@
-{% set version = "1.0.0beta17" %}
+{% set version = "1.0.0beta18" %}
 
 package:
   name: emperor
@@ -7,7 +7,7 @@ package:
 source:
   fn: emperor-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/e/emperor/emperor-{{ version }}.tar.gz
-  sha256: 1c3b4c13b68147956ad7a16db8781493dfa4350bb3fe198e81423d4a40e21060
+  sha256: 44e213e1cf7698e21db465a34c2dd1d3dd8ef78fc14d0945e09a99dc701333f4
 
 build:
   number: 1
