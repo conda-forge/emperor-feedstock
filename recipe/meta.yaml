@@ -10,7 +10,7 @@ source:
   sha256: 44e213e1cf7698e21db465a34c2dd1d3dd8ef78fc14d0945e09a99dc701333f4
 
 build:
-  number: 1
+  number: 1001
   skip: true  # [win]
   script: python setup.py install --record=record.txt
 
