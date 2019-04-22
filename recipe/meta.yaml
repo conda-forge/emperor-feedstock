@@ -25,6 +25,7 @@ requirements:
     - numpy >=1.7
     - pandas
     - click
+    - setuptools
 
   run:
     - python
@@ -36,8 +37,13 @@ requirements:
     - numpy >=1.7
     - pandas
     - click
+    - setuptools
 
 test:
+  requires:
+    - pep8
+    - flake8
+    - nose
   imports:
     - emperor
     - emperor.qiime_backports
