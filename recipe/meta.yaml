@@ -42,11 +42,6 @@ requirements:
     - setuptools
 
 test:
-  requires:
-    - pep8
-    - flake8
-    - nose
-    - click
   imports:
     - emperor  # [ not (linux and py2k)]
     - emperor.qiime_backports  # [ not (linux and py2k)]
