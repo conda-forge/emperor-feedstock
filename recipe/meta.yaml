@@ -12,7 +12,9 @@ source:
 build:
   number: 0
   skip: true  # [win]
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script:
+    - export MPLBACKEND='Agg'
+    - python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
   build:
@@ -45,7 +47,6 @@ test:
     - flake8
     - nose
     - click
-    - {{ cdt('xorg-x11-proto-devel') }}  # [linux]
   imports:
     - emperor
     - emperor.qiime_backports
