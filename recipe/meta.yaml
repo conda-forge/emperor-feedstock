@@ -45,6 +45,7 @@ test:
     - flake8
     - nose
     - click
+    - {{ cdt('xorg-x11-proto-devel') }}  # [linux]
   imports:
     - emperor
     - emperor.qiime_backports
