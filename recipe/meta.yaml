@@ -48,8 +48,8 @@ test:
     - nose
     - click
   imports:
-    - emperor # [ not (linux and py2k)]
-    - emperor.qiime_backports # [ not (linux and py2k)]
+    - emperor  # [ not (linux and py2k)]
+    - emperor.qiime_backports  # [ not (linux and py2k)]
 
 about:
   home: http://emperor.microbio.me
