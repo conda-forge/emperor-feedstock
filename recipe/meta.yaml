@@ -1,4 +1,4 @@
-{% set version = "1.0.0beta19" %}
+{% set version = "1.0.0b19" %}
 
 package:
   name: emperor
