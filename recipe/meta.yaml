@@ -12,7 +12,7 @@ source:
 build:
   number: 0
   skip: true  # [win]
-  script: python setup.py install --record=record.txt
+  script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
   build:
@@ -44,9 +44,12 @@ test:
     - pep8
     - flake8
     - nose
+    - click
   imports:
     - emperor
     - emperor.qiime_backports
+  commands:
+    - export MPLBACKEND='Agg'
 
 about:
   home: http://emperor.microbio.me
