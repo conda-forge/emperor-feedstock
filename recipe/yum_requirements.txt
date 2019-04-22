@@ -1,5 +1,0 @@
-libXext
-libSM
-libXrender
-xorg-x11-server-Xvfb
-mesa-libGL
