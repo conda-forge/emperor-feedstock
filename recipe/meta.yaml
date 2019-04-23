@@ -14,7 +14,7 @@ build:
   skip: true  # [win]
   script:
     - export MPLBACKEND='Agg'
-    - {{ PYTHON }} -m pip install . --no-deps -vv
+    - python -m pip install . --no-deps -vv
 
 requirements:
   build:
