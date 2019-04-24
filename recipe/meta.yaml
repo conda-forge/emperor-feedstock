@@ -12,7 +12,7 @@ source:
 build:
   number: 0
   skip: true  # [win]
-  script: $PYTHON setup.py install --single-version-externally-managed --record record.txt
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
@@ -26,9 +26,6 @@ requirements:
     - pandas
     - click
     - setuptools
-    - pip
-
-  host:
     - pip
 
   run:
