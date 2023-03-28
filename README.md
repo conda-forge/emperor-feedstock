@@ -1,11 +1,11 @@
-About emperor
-=============
+About emperor-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/emperor-feedstock/blob/main/LICENSE.txt)
 
 Home: http://emperor.microbio.me
 
 Package license: BSD 3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/emperor-feedstock/blob/main/LICENSE.txt)
 
 Summary: Emperor a tool for the analysis and visualization of large microbial ecology datasets
 
