@@ -1,4 +1,4 @@
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: emperor
@@ -7,7 +7,7 @@ package:
 source:
   fn: emperor-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/e/emperor/emperor-{{ version }}.tar.gz
-  sha256: 235e3f0aad24a03495bcbcb94ae52d3e6309e12b74639ea5b860f4ed76436193
+  sha256: 8b57d6ee3709b62b4dfdd8e1f815dd88e5fee3a05947d72fa32191a16ac08854
 
 build:
   number: 0
@@ -20,8 +20,7 @@ requirements:
     - scipy >=0.17.0
     - future
     - jinja2
-    - scikit-bio >=0.4.1,<0.5.0  # [py2k]
-    - scikit-bio >=0.4.1  # [py3k]
+    - scikit-bio
     - numpy >=1.7
     - pandas
     - click
@@ -33,8 +32,7 @@ requirements:
     - scipy >=0.17.0
     - future
     - jinja2
-    - scikit-bio >=0.4.1,<0.5.0  # [py2k]
-    - scikit-bio >=0.4.1  # [py3k]
+    - scikit-bio
     - numpy >=1.7
     - pandas
     - click
