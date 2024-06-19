@@ -45,7 +45,7 @@ test:
 
 about:
   home: http://emperor.microbio.me
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE.md
   summary: Emperor a tool for the analysis and visualization of large microbial ecology datasets
 
