@@ -10,9 +10,9 @@ source:
   sha256: 8b57d6ee3709b62b4dfdd8e1f815dd88e5fee3a05947d72fa32191a16ac08854
 
 build:
-  number: 2
+  number: 3
   skip: true  # [win]
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
@@ -45,7 +45,7 @@ test:
 
 about:
   home: http://emperor.microbio.me
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE.md
   summary: Emperor a tool for the analysis and visualization of large microbial ecology datasets
 
