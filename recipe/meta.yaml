@@ -25,7 +25,7 @@ requirements:
     - future
     - jinja2
     - scikit-bio
-    - numpy >=1.7
+    - numpy
     - pandas
     - click
     - setuptools
