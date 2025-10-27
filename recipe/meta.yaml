@@ -6,11 +6,11 @@ package:
 
 source:
   fn: emperor-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/e/emperor/emperor-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/e/emperor/emperor-{{ version }}.tar.gz
   sha256: 8b57d6ee3709b62b4dfdd8e1f815dd88e5fee3a05947d72fa32191a16ac08854
 
 build:
-  number: 3
+  number: 4
   skip: true  # [win]
   script: "{{ PYTHON }} -m pip install . -vv"
 
@@ -25,7 +25,7 @@ requirements:
     - future
     - jinja2
     - scikit-bio
-    - numpy >=1.7
+    - numpy
     - pandas
     - click
     - setuptools
