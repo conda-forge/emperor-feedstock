@@ -6,11 +6,11 @@ package:
 
 source:
   fn: emperor-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/e/emperor/emperor-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/e/emperor/emperor-{{ version }}.tar.gz
   sha256: efc8d37cecc559dae3f0ab2fec45d0d91eb198872fac98ecc4df59d3a14cc96c
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   script: "{{ PYTHON }} -m pip install . -vv"
 
